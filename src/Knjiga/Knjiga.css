@@ -1,0 +1,50 @@
+.knjiga {
+  /* width: 20%; */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  /* background: rgba(255, 255, 255, 0.6); */
+  /* background: rgb(241, 239, 228); */
+  background: rgb(236, 232, 225);
+  /* background: rgba(255, 255, 255, 0.7); */
+  /* color: wheat; */
+  width: 230px;
+  height: fit-content;
+  position: relative;
+  margin: 20px;
+  margin-bottom: 20px;
+  line-height: 15px;
+}
+.knjiga h2 {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 0;
+}
+.knjiga div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.god::after {
+  content: "\A";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: black;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.knjiga img {
+  padding-top: 10%;
+  width: 85%;
+  height: auto;
+  padding-left: 6%;
+}
+.citat {
+  margin-top: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 14px;
+}

@@ -1,0 +1,83 @@
+{
+  "licnaKartaInfo": [
+    {
+      "ime": "Marko",
+      "prezime": "Markovic",
+      "datumRodjenja": "11.02.2000",
+      "grad": "Niksic",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png",
+      "id": 1
+    },
+    {
+      "ime": "Janko",
+      "prezime": "Jankovic",
+      "datumRodjenja": "11.06.2000",
+      "grad": "Podgorica",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png",
+      "id": 2
+    },
+    {
+      "ime": "Ana",
+      "prezime": "Jankovic",
+      "datumRodjenja": "15.02.1998",
+      "grad": "Herceg Novi",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png",
+      "id": 3
+    }
+  ],
+  "filmInfo": [
+    {
+      "naziv": "Creed II",
+      "godina": "2018",
+      "zanr": "action",
+      "reziser": "Steven Caple",
+      "glumci": ["Michael B Jordan", "Sylvester Stallone", "Sascha Penn"],
+      "imgUrl": "https://m.media-amazon.com/images/I/81rpB-3qwoL._AC_SL1500_.jpg",
+      "id": 1
+    },
+    {
+      "naziv": "Venom 2",
+      "godina": "2021",
+      "zanr": "Action/Sci-Fi",
+      "reziser": "Andy Serkis",
+      "glumci": ["Tom Holland", "Tom Hardy"],
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmapu8GZ_mDHJvyCJeSWpoZP8xCLrwwYFsUQ&usqp=CAU",
+      "id": 2
+    },
+    {
+      "naziv": "Batman",
+      "godina": "2022",
+      "zanr": "Action",
+      "reziser": "Matt Reeves",
+      "glumci": ["Robert Pattinson", "Zoe Kravitz"],
+      "imgUrl": "https://c8.alamy.com/comp/2E8WGTN/robert-pattinson-in-the-batman-2022-directed-by-matt-reeves-credit-dc-entertainmentwarner-bros-album-2E8WGTN.jpg",
+      "id": 3
+    }
+  ],
+  "knjigaInfo": [
+    {
+      "naslov": "Sapiens",
+      "godinaIzdavanja": "2011",
+      "autor": "Yuval noa Harrari",
+      "imgUrl": "https://www.pngkit.com/png/full/453-4539920_a-brief-history-sapiens-book-hardcover-sapiens-a.png",
+      "citat": "You could never convince a monkey to give you a banana by promising him limitless bananas after death in monkey heaven.",
+      "id": 1
+    },
+    {
+      "naslov": "Sapiens",
+      "godinaIzdavanja": "2011",
+      "autor": "Yuval noa Harrari",
+      "imgUrl": "https://www.pngkit.com/png/full/453-4539920_a-brief-history-sapiens-book-hardcover-sapiens-a.png",
+      "citat": "You could never convince a monkey to give you a banana by promising him limitless bananas after death in monkey heaven.",
+      "id": 1
+    },
+    {
+      "naslov": "Sapiens",
+      "godinaIzdavanja": "2011",
+      "autor": "Yuval noa Harrari",
+      "imgUrl": "https://www.pngkit.com/png/full/453-4539920_a-brief-history-sapiens-book-hardcover-sapiens-a.png",
+      "citat": "You could never convince a monkey to give you a banana by promising him limitless bananas after death in monkey heaven.",
+      "id": 1
+    }
+  ]
+}

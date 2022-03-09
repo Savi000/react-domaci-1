@@ -1,0 +1,83 @@
+.licna-karta {
+  /* border: 1px solid black; */
+  width: 230px;
+  position: relative;
+  margin: 20px;
+  background: whitesmoke;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  /* margin-bottom: 50px; */
+  margin-bottom: 20px;
+}
+.slika-div {
+  height: 55%;
+  width: 78%;
+  background: rgba(236, 236, 236, 0.7);
+  /* width: 100%; */
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.licna-karta img {
+  width: 80%;
+  height: 80%;
+  /* border: 1px solid blue; */
+  /* border-radius: 50%; */
+}
+.background {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  width: 30%;
+  height: 70%;
+  opacity: 0.6;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: whitesmoke;
+  text-align: center;
+  z-index: 10;
+}
+.background p {
+  overflow: hidden;
+  word-wrap: break-word;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.opis {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-left: 15px;
+  padding-right: 10px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+}
+.datum {
+  margin-top: -15px;
+  margin-bottom: 20px;
+  color: gray;
+  font-size: 13px;
+}
+
+.imeIprezime {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+/* bilo 720px */
+/* @media screen and (max-width: 810px) { */
+/* .licna-karta { */
+/* margin-bottom: 20px; */
+/* width: 215px; */
+/* height: 50%; */
+/* } */
+/* } */

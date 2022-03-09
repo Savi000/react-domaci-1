@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import LicnaKarta from "./LicnaKarta/LicnaKarta";
+import Knjiga from "./Knjiga/Knjiga";
+import Film from "./Film/Film";
+import Wrapper from "./Wrapper/Wrapper";
+import data from "./data.json";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="sve">
+      <Wrapper
+        children={data.licnaKartaInfo.map((obj) => (
+          <LicnaKarta key={obj.id} info={obj} />
+        ))}
+      />
+      <Wrapper
+        children={data.filmInfo.map((obj) => (
+          <Film key={obj.id} info={obj} />
+        ))}
+      />
+      <Wrapper
+        children={data.knjigaInfo.map((obj) => (
+          <Knjiga key={obj.id} info={obj} />
+        ))}
+      />
     </div>
   );
 }
